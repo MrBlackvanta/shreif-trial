@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   box-sizing: inherit;
   font-family: "Montserrat", sans-serif;
@@ -13,14 +13,14 @@ html {
 }
 
 .container {
-  background-color: #F2EAE2;
+  background-color: #f2eae2;
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
 .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 60rem;
   height: 45rem;
   position: absolute;
@@ -76,12 +76,12 @@ html {
 }
 .card_details--title {
   font-size: 1.2rem;
-  color: #6C7289;
+  color: #6c7289;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
 }
 .card_details--name {
-  color: #1C232B;
+  color: #1c232b;
   font-size: 3.2rem;
   font-weight: 700;
   font-family: "Fraunces", serif;
@@ -89,7 +89,7 @@ html {
 }
 .card_details--description {
   font-size: 1.3rem;
-  color: #6C7289;
+  color: #6c7289;
   line-height: 2rem;
 }
 .card_details--price {
@@ -100,22 +100,22 @@ html {
 .card_details--price--discount {
   font-size: 3.2rem;
   font-family: "Fraunces", serif;
-  color: #3D8168;
+  color: #3d8168;
 }
 .card_details--price--main {
   font-size: 1.3rem;
-  color: #6C7289;
+  color: #6c7289;
   text-decoration: line-through;
 }
 .card_details--btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3D8168;
+  background-color: #3d8168;
   border-radius: 1rem;
   gap: 3%;
   height: 4.8rem;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.2rem;
   cursor: pointer;
@@ -123,7 +123,7 @@ html {
 }
 .card_details--btn:hover {
   transition: all 0.3s;
-  background-color: #1A4032;
+  background-color: #1a4032;
 }
 
 .attribution {
@@ -132,4 +132,4 @@ html {
   left: 50%;
   bottom: 0%;
   transform: translateX(-50%);
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
